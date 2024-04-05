@@ -29,7 +29,8 @@ const UserFront = () => {
                     <div className="card" key={user._id}>
                         <p>Name: {user.name}</p>
                         <p>address: {user.address}</p>
-                        {/* Add more fields as needed */}
+                      <button>edit</button>
+                        <button>delete</button>
                     </div>
                 ))}
             </div>

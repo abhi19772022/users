@@ -11,6 +11,7 @@ app.use(cors());
 mongoose.connect('mongodb://localhost/store', { useNewUrlParser: true, useUnifiedTopology: true });
 
 
+
 const UserSchema = new mongoose.Schema({
   name: String,
   address: String
